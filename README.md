@@ -1,4 +1,4 @@
-#Reading companion
+## Reading companion
 Most book recommenders recommend books similar to what you just read. This one asks a different question: where are you now, and what do you need next?
 
 In some cases, it’s more of the same. Sometimes, it is the next step in your journey.
