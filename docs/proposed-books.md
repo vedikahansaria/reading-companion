@@ -1,6 +1,8 @@
 # Proposed books
 
-This is a proposal for 33 books to add to the catalog, so that every theme in [`theme-vocabulary.md`](theme-vocabulary.md) has at least 2 books. **Nothing here is in `data/books.csv` yet.** Once a book is approved, tag it in full using [`tagging-guide.md`](tagging-guide.md).
+This was a proposal for books to add to the catalog, so that every theme in [`theme-vocabulary.md`](theme-vocabulary.md) has at least 2 books. **The 32 books below were approved and are now in `data/books.csv`**, fully tagged and marked `AI suggested` in the `source` column. *Five Point Someone* was dropped from the original 33, so the mix counts below are slightly out of date.
+
+To propose more books, add rows to this table. The coverage script skips any title already in `books.csv`, so books are never counted twice.
 
 Before this proposal, 21 of the 32 themes had fewer than 2 books (`freedom`, `purpose`, `hope` and `leadership` had none). To check coverage with these books included:
 

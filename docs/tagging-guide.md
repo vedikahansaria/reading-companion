@@ -91,6 +91,12 @@ Either `high` or `low`:
 ### confidence_notes
 Free text. Say which tags are uncertain and why. Also use it for anything a later reviewer should know, such as a translation date or a corrected title.
 
+### source
+Who chose the book. Use exactly one of:
+- `my pick`: chosen by the project owner
+- `interviewee`: suggested by someone interviewed or surveyed for the project
+- `AI suggested`: proposed by an AI assistant and then approved
+
 ## Checking a row
 
 Before adding a row, check:
@@ -100,3 +106,4 @@ Before adding a row, check:
 3. Are `leads_from` entries written as situations a reader is in, and not as themes?
 4. Have you listed the content notes?
 5. If you guessed anything, does `confidence_notes` say so?
+6. Is `source` one of `my pick`, `interviewee` or `AI suggested`?
