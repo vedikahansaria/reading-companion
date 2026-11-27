@@ -14,7 +14,7 @@ Most of the fields below exist to make these moves possible.
 ## General rules
 
 - One row per book
-- If a field holds several values, separate them with semicolons (`;`), for example `loneliness;friendship;healing`
+- If a field holds several values, separate them with semicolons (`;`), for example `loneliness;friendship;mental health`
 - Keep tags short and lowercase, except for names (places, people, events)
 - Use an existing tag before inventing a new one, e.g., use `loneliness` everywhere, never `loneliness` in one row and `being alone` in another
 - If you're not sure about a tag, still fill it in, then mark it in `confidence` and `confidence_notes`
@@ -40,7 +40,7 @@ One short label for the kind of book, such as `contemporary fiction`, `historica
 Either `fiction` or `nonfiction`.
 
 ### themes
-3 to 5 subjects the book is really about. These are what it explores, not its plot. Examples: `loneliness`, `belonging`, `resilience`, `family loyalty`, `moral courage`.
+3 to 5 subjects the book is really about. These are what it explores, not its plot. Use only themes from [`docs/theme-vocabulary.md`](theme-vocabulary.md). Examples: `loneliness`, `belonging`, `resilience`, `family`, `moral courage`.
 
 ### tone
 How the book feels to read. Use 2 to 4 words, such as `warm`, `heavy`, `funny`, `hopeful`, `lyrical`, `ironic`, or `bittersweet`. A book can be both `heavy` and `hopeful`.
@@ -65,7 +65,7 @@ What a reader might be going through when this book is the right one to pick up,
 This is the most important field for matching a reader to a book.
 
 ### leads_to
-Themes a reader might be ready for after finishing this book. These are what connect one book to the next. A `leads_to` tag that matches another book's `themes` means that book could **go deeper** or **move forward**. A matching book with a very different `tone` could **offer a contrast**.
+Themes a reader might be ready for after finishing this book, using only themes from [`docs/theme-vocabulary.md`](theme-vocabulary.md). These are what connect one book to the next. For more possible next steps, `data/theme_journeys.csv` links each theme to others. A `leads_to` tag that matches another book's `themes` means that book could **go deeper** or **move forward**. A matching book with a very different `tone` could **offer a contrast**.
 
 ### pace
 How quickly the book moves:
@@ -95,7 +95,7 @@ Free text. Say which tags are uncertain and why. Also use it for anything a late
 
 Before adding a row, check:
 
-1. Does it have 3 to 5 themes?
+1. Does it have 3 to 5 themes, all from the theme vocabulary? Are its `leads_to` themes from the vocabulary too?
 2. Do its needs come only from the six listed above?
 3. Are `leads_from` entries written as situations a reader is in, and not as themes?
 4. Have you listed the content notes?
