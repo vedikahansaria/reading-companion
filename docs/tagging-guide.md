@@ -16,7 +16,7 @@ Most of the fields below exist to make these moves possible.
 - One row per book
 - If a field holds several values, separate them with semicolons (`;`), for example `loneliness;friendship;healing`
 - Keep tags short and lowercase, except for names (places, people, events)
-- Use an existing tag before inventing a new one. Use `loneliness` everywhere, never `loneliness` in one row and `being alone` in another
+- Use an existing tag before inventing a new one, e.g., use `loneliness` everywhere, never `loneliness` in one row and `being alone` in another
 - If you're not sure about a tag, still fill it in, then mark it in `confidence` and `confidence_notes`
 
 ## Fields
@@ -43,7 +43,7 @@ Either `fiction` or `nonfiction`.
 3 to 5 subjects the book is really about. These are what it explores, not its plot. Examples: `loneliness`, `belonging`, `resilience`, `family loyalty`, `moral courage`.
 
 ### tone
-How the book feels to read. Use 2 to 4 words, such as `warm`, `heavy`, `funny`, `hopeful`, `lyrical`, `ironic` or `bittersweet`. A book can be both `heavy` and `hopeful`.
+How the book feels to read. Use 2 to 4 words, such as `warm`, `heavy`, `funny`, `hopeful`, `lyrical`, `ironic`, or `bittersweet`. A book can be both `heavy` and `hopeful`.
 
 ### needs
 What the book can give a reader right now. Choose one or more of these six:
