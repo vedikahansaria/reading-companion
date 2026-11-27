@@ -1,13 +1,15 @@
 # Tagging guide
 
-This guide explains each column in `data/books.csv`. It is for anyone adding or checking a book.
+This guide explains each column in `data/books.csv` and `data/theme_journeys.csv`. It is for anyone adding or checking a book or a journey.
 
 The catalog exists so we can suggest a reader's next book based on where they are emotionally, and not only on books like the one they just read. From any book, the next one can:
 
-- **stay** on the same theme
-- **go deeper** into it
-- **move the reader forward** to something new
-- **offer a contrast**
+- **stay** on the same ground
+- **deepen** into it
+- **move forward** to the next step
+- **contrast** with a change of subject
+
+The four moves are defined in [Theme journeys](#theme-journeys) below.
 
 Most of the fields below exist to make these moves possible.
 
@@ -45,6 +47,8 @@ Either `fiction` or `nonfiction`.
 ### tone
 How the book feels to read. Use 2 to 4 words, such as `warm`, `heavy`, `funny`, `hopeful`, `lyrical`, `ironic`, or `bittersweet`. A book can be both `heavy` and `hopeful`.
 
+Any book with dark, violent or bleak content must include `heavy` or `dark`, even if it is fast, funny or satirical. A light tone must never hide a hard book.
+
 ### needs
 What the book can give a reader right now. Choose one or more of these six:
 
@@ -65,7 +69,7 @@ What a reader might be going through when this book is the right one to pick up,
 This is the most important field for matching a reader to a book.
 
 ### leads_to
-Themes a reader might be ready for after finishing this book, using only themes from [`docs/theme-vocabulary.md`](theme-vocabulary.md). These are what connect one book to the next. For more possible next steps, `data/theme_journeys.csv` links each theme to others. A `leads_to` tag that matches another book's `themes` means that book could **go deeper** or **move forward**. A matching book with a very different `tone` could **offer a contrast**.
+Themes a reader might be ready for after finishing this book, using only themes from [`docs/theme-vocabulary.md`](theme-vocabulary.md). These are what connect one book to the next. For more possible next steps, `data/theme_journeys.csv` links each theme to others. A `leads_to` tag that matches another book's `themes` means that book is a possible next read.
 
 ### pace
 How quickly the book moves:
@@ -97,6 +101,24 @@ Who chose the book. Use exactly one of:
 - `interviewee`: suggested by someone interviewed or surveyed for the project
 - `AI suggested`: proposed by an AI assistant and then approved
 
+## Theme journeys
+
+`data/theme_journeys.csv` links one theme to another. Each row has:
+
+- `from_theme` and `to_theme`: two themes from the vocabulary.
+- `move_type`: one of the four moves below.
+- `ready_when`: optional. A short sign that a reader is ready for this move, written as something the reader feels or says, such as `feels boxed in by expectations`. Leave it empty if the move suits anyone.
+- `why`: one plain sentence explaining the link.
+
+The four moves:
+
+- **stay:** the next book is on the same emotional ground, through a closely related theme. Stay rows work in both directions. List each pair once.
+- **deepen:** the next book goes further into the same territory, often harder or more complex.
+- **move forward:** the next book is the natural next step once the reader is ready. Use `ready_when` to say what "ready" looks like.
+- **contrast:** the next book changes the subject on purpose, to give relief or a fresh view. Keep a contrast row only when the change of subject is the point; a change in how a book feels is handled by tone.
+
+A theme can always lead to itself as a stay, so those rows are not listed.
+
 ## Checking a row
 
 Before adding a row, check:
@@ -107,3 +129,4 @@ Before adding a row, check:
 4. Have you listed the content notes?
 5. If you guessed anything, does `confidence_notes` say so?
 6. Is `source` one of `my pick`, `interviewee` or `AI suggested`?
+7. If the book has dark, violent or bleak content, does `tone` include `heavy` or `dark`?
