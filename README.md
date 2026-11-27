@@ -16,6 +16,7 @@ Public build. Phase 1: seed catalogue of books tagged by theme, tone and reader 
 - **`docs/theme-vocabulary.md`**: the fixed list of themes. `themes` and `leads_to` use only these words, so books can be linked to each other.
 - **`data/theme_journeys.csv`**: links one theme to another, with the kind of move (stay, deepen, move forward or contrast) and a one-line reason.
 - **`docs/tagging-guide.md`**: explains every field and how to tag a new book.
+- **`scripts/check_coverage.py`**: counts how many books carry each theme and flags themes with fewer than 2. Run `python3 scripts/check_coverage.py`, or add `--with-proposed` to include `docs/proposed-books.md`.
 
 To find a next book, start from the book a reader just finished. Look up its `leads_to` themes, or follow a journey from one of its themes. Then pick books whose `themes` match, and use `needs`, `tone` and `content_notes` to choose the one that fits where the reader is now.
 
