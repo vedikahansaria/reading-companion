@@ -13,11 +13,11 @@ Most of the fields below exist to make these moves possible.
 
 ## General rules
 
-- One row per book.
-- If a field holds several values, separate them with semicolons (`;`), for example `loneliness;friendship;healing`.
-- Keep tags short and lowercase, except for names (places, people, events).
-- Use an existing tag before inventing a new one. Use `loneliness` everywhere, never `loneliness` in one row and `being alone` in another.
-- If you're not sure about a tag, still fill it in, then mark it in `confidence` and `confidence_notes`.
+- One row per book
+- If a field holds several values, separate them with semicolons (`;`), for example `loneliness;friendship;healing`
+- Keep tags short and lowercase, except for names (places, people, events)
+- Use an existing tag before inventing a new one. Use `loneliness` everywhere, never `loneliness` in one row and `being alone` in another
+- If you're not sure about a tag, still fill it in, then mark it in `confidence` and `confidence_notes`
 
 ## Fields
 
@@ -85,8 +85,8 @@ Heavy topics a reader may want to be warned about before starting, such as `suic
 
 ### confidence
 Either `high` or `low`:
-- `high`: every tag in the row is well known or has been checked.
-- `low`: at least one tag is a guess. Name it in `confidence_notes`.
+- `high`: every tag in the row is well known or has been checked
+- `low`: at least one tag is a guess. Name it in `confidence_notes`
 
 ### confidence_notes
 Free text. Say which tags are uncertain and why. Also use it for anything a later reviewer should know, such as a translation date or a corrected title.
