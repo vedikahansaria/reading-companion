@@ -1,0 +1,70 @@
+from_theme,to_theme,move_type,why
+loneliness,belonging,move forward,"Once you feel less alone, you're ready to find your people."
+loneliness,friendship,move forward,A single real friendship is often the first way out of loneliness.
+loneliness,mental health,deepen,Loneliness often sits on top of older pain that is worth understanding.
+loneliness,family,contrast,"A crowded, noisy family story is the opposite of an empty room."
+mental health,self-acceptance,move forward,"After understanding your struggles, the next step is going easier on yourself."
+mental health,resilience,move forward,Seeing people recover can show you that you can too.
+mental health,ambition,contrast,"After a long time inside your own head, an outward story of building something can feel like fresh air."
+self-acceptance,identity,deepen,Accepting yourself leads to asking who you really are.
+self-acceptance,freedom,move forward,"Once you stop fighting yourself, you can start choosing your own path."
+identity,tradition,deepen,Who you are is tangled up with what you were raised to be.
+identity,freedom,move forward,"Once you know who you are, you can start living that way."
+grief,hope,move forward,"After sitting with loss, you may be ready for stories about what comes next."
+grief,history and memory,deepen,Remembering the people we lost is one way of carrying grief.
+grief,kindness,stay,Stories of loss are often held together by small acts of care.
+resilience,hope,stay,Both are about believing things can get better.
+resilience,risk and failure,deepen,Real resilience is learned by failing and trying again.
+resilience,entrepreneurship,move forward,"Once you've bounced back, you may want to build something."
+growing up,identity,move forward,"After childhood, the next question is who you'll become."
+growing up,moral courage,deepen,Children in these stories often learn courage by watching the adults around them.
+freedom,purpose,move forward,"Once you're free, the question becomes what to do with it."
+freedom,social convention,contrast,A story about the cost of society's rules shows what freedom is up against.
+purpose,legacy,deepen,Asking what matters leads to asking what you'll leave behind.
+hope,purpose,move forward,"Once you believe things can get better, you can ask what you want them to become."
+friendship,kindness,stay,Both are about how people show up for each other.
+friendship,love and betrayal,deepen,Close ties can also hurt; this goes into the harder side of love.
+belonging,identity,move forward,Feeling at home with others frees you to work out who you are.
+belonging,culture clash,contrast,Stories of not fitting in show belonging from the outside.
+family,legacy,deepen,Family stories are often about what gets passed down.
+family,forgiveness,move forward,"After facing old family hurt, you may be ready to let some of it go."
+family,freedom,move forward,"After facing what your family made you, you may be ready to choose your own way."
+kindness,empathy,stay,Both are about caring for people beyond yourself.
+kindness,justice,deepen,Small kindnesses lead to asking how people can be treated fairly on a bigger scale.
+forgiveness,self-acceptance,move forward,Forgiving others often comes before forgiving yourself.
+forgiveness,justice,contrast,"Forgiveness lets go, while justice asks for things to be put right."
+love and betrayal,self-acceptance,move forward,"After being let down, the next step is knowing your own worth."
+empathy,prejudice,deepen,Understanding others leads to seeing what stops people from doing it.
+empathy,justice,move forward,Caring about people leads to caring whether they are treated fairly.
+justice,prejudice,stay,Unfair systems and unfair judgments usually go together.
+justice,moral courage,move forward,"After seeing injustice, the next question is what you would do about it."
+justice,history and memory,deepen,Many injustices make more sense once you know the history behind them.
+prejudice,empathy,move forward,"Once you see prejudice clearly, empathy is the way past it."
+social convention,tradition,stay,Both are about the rules people inherit and live by.
+social convention,culture clash,deepen,A society's rules show up most clearly when two cultures meet.
+social convention,freedom,move forward,"Once you see how rules box people in, you may want stories of breaking out."
+moral courage,leadership,move forward,Standing up once can grow into leading others.
+moral courage,justice,stay,Courage in these stories is almost always in the name of fairness.
+women's voice,identity,deepen,Claiming your voice leads to deciding who you want to be.
+women's voice,self-acceptance,move forward,"After being unheard, the next step is believing your voice matters."
+women's voice,moral courage,stay,Speaking up when you are expected to stay quiet is its own kind of courage.
+culture clash,empathy,deepen,Meeting other ways of life is where empathy gets tested.
+culture clash,belonging,move forward,"After feeling out of place, you may want stories about finding home."
+tradition,legacy,stay,Both are about what is handed from one generation to the next.
+tradition,freedom,contrast,A story about breaking away shows the other side of keeping tradition.
+tradition,entrepreneurship,move forward,Old ways can become the base for something new.
+history and memory,power of stories,deepen,Stories are how the past is remembered and passed on.
+history and memory,hope,move forward,"After the weight of the past, a story about building a better future can lift you."
+power of stories,education,move forward,A love of words can grow into a love of learning.
+power of stories,history and memory,deepen,Many of the stories that last are about times worth remembering.
+ambition,entrepreneurship,stay,Both are about the drive to make something happen.
+ambition,purpose,deepen,Wanting more leads to asking what it is all for.
+ambition,kindness,contrast,A gentle story about small kindnesses is a break from striving.
+entrepreneurship,risk and failure,deepen,Building anything means facing the chance that it fails.
+entrepreneurship,leadership,move forward,"Once something is built, the next challenge is leading the people in it."
+entrepreneurship,legacy,deepen,Building something leads to thinking about what will outlast you.
+risk and failure,resilience,move forward,"After a failure, the next story to read is about getting back up."
+leadership,legacy,move forward,Leading well leads to asking what you will leave behind.
+legacy,history and memory,deepen,What one family or company leaves behind is part of a bigger history.
+education,identity,deepen,"Learning changes who you are, not just what you know."
+education,freedom,move forward,Learning can open doors you could not see before.
