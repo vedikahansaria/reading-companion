@@ -3,7 +3,7 @@
 
 Usage:
     python3 scripts/check_coverage.py                 # books.csv only
-    python3 scripts/check_coverage.py --with-proposed # books.csv plus docs/proposed-books.md
+    python3 scripts/check_coverage.py --with-proposed # also count proposed books not yet in books.csv
     python3 scripts/check_coverage.py --min 3         # change the threshold (default 2)
     python3 scripts/check_coverage.py --strict        # exit with an error if any theme is short
 
@@ -79,7 +79,8 @@ def main():
     books = load_books()
     sources = {"books.csv": books}
     if args.with_proposed:
-        sources["proposed"] = load_proposed()
+        in_catalog = {title for title, _ in books}
+        sources["proposed"] = [b for b in load_proposed() if b[0] not in in_catalog]
 
     counts = {name: defaultdict(int) for name in sources}
     unknown = defaultdict(set)
