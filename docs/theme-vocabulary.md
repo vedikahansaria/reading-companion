@@ -9,8 +9,8 @@ There are 32 themes in four families. Spell each one exactly as written here, in
 | Theme | What it means |
 |---|---|
 | `loneliness` | Feeling cut off from other people, even when they are around. |
-| `mental health` | Anxiety, trauma, depression and the slow work of healing from them. |
-| `self-acceptance` | Learning to be kind to yourself and believe you are worth something. |
+| `mental health` | Anxiety, trauma, depression, and the slow work of healing from them. |
+| `self-acceptance` | Learning to be kind to yourself and believing you are worth something. |
 | `identity` | Working out who you are and who you are becoming. |
 | `grief` | Living with death and loss, and carrying them over time. |
 | `resilience` | Keeping going and getting back up after things go wrong. |
@@ -25,7 +25,7 @@ There are 32 themes in four families. Spell each one exactly as written here, in
 |---|---|
 | `friendship` | The bonds we choose, and what they give us. |
 | `belonging` | Finding your people and a place where you fit. |
-| `family` | Loyalty, conflict and the ties we are born into, including when to step back from them. |
+| `family` | Loyalty, conflict, and the ties we are born into, including when to step back from them. |
 | `kindness` | Small acts of care, often from strangers, that change things. |
 | `forgiveness` | Letting go of hurt and giving people, yourself included, a second chance. |
 | `love and betrayal` | Deep love and what happens when it is broken. |
@@ -36,14 +36,14 @@ There are 32 themes in four families. Spell each one exactly as written here, in
 | Theme | What it means |
 |---|---|
 | `justice` | Fairness and unfairness, and what happens when systems fail people. |
-| `prejudice` | Judging people by race, class, gender or group instead of who they are. |
+| `prejudice` | Judging people by race, class, gender, or group instead of who they are. |
 | `social convention` | The unwritten rules of a society and the price of breaking them. |
 | `moral courage` | Doing the right thing when it is hard, risky or unpopular. |
-| `women's voice` | Women claiming the right to speak, choose and be heard. |
+| `women's voice` | Women claiming the right to speak, choose, and be heard. |
 | `culture clash` | What happens when different cultures, places or ways of life meet. |
 | `tradition` | Customs and duties passed down, and whether to keep or change them. |
 | `history and memory` | How the past shapes the present, and why remembering matters. |
-| `power of stories` | How words, books and stories shape and sustain us. |
+| `power of stories` | How words, books, and stories shape and sustain us. |
 
 ## Work and ambition
 
@@ -51,7 +51,7 @@ There are 32 themes in four families. Spell each one exactly as written here, in
 |---|---|
 | `ambition` | Wanting more, and the drive to get it. |
 | `entrepreneurship` | Starting and building something of your own from little. |
-| `risk and failure` | Taking chances, failing and learning from it. |
+| `risk and failure` | Taking chances, failing, and learning from it. |
 | `leadership` | Taking responsibility for people and a shared goal. |
 | `legacy` | What we build to outlast us, and what gets passed on. |
 | `education` | Learning, and how it can change a life. |
@@ -77,7 +77,7 @@ These earlier free-text tags now map to a single theme:
 | second chances | `forgiveness` |
 | misunderstanding | `empathy` |
 | racial injustice, injustice | `justice` |
-| judgment, society and conformity | `social convention` |
+| judgment, society, and conformity | `social convention` |
 | courage, standing up for others | `moral courage` |
 | female agency, speaking up | `women's voice` |
 | cultural clash, cross-cultural life | `culture clash` |
