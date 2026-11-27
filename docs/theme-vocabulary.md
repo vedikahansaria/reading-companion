@@ -93,12 +93,7 @@ These earlier free-text tags now map to a single theme:
 
 ## Moves between themes
 
-`data/theme_journeys.csv` links pairs of themes with one of four moves:
-
-- **stay:** a closely related theme with the same emotional weight. Any theme can always lead to itself as a stay, so those pairs are not listed.
-- **deepen:** goes further into the same territory, often harder or more complex.
-- **move forward:** the natural next step once a reader is ready.
-- **contrast:** a different angle or mood that gives relief or a fresh view.
+`data/theme_journeys.csv` links pairs of themes with one of four moves: stay, deepen, move forward and contrast. The moves and the rules for each are defined in [`tagging-guide.md`](tagging-guide.md#theme-journeys).
 
 ## Adding a theme
 
